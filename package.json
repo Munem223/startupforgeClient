@@ -1,0 +1,40 @@
+{
+  "name": "startupforge-client",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint ."
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "5.90.21",
+    "axios": "1.13.2",
+    "better-auth": "1.6.20",
+    "framer-motion": "12.23.26",
+    "lucide-react": "0.562.0",
+    "motion-dom": "12.23.23",
+    "motion-utils": "12.23.6",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "react-hot-toast": "2.6.0",
+    "react-is": "19.2.7",
+    "react-router-dom": "7.13.0",
+    "recharts": "3.7.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.39.2",
+    "@vitejs/plugin-react": "6.0.1",
+    "eslint": "9.39.2",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "7.0.1",
+    "eslint-plugin-react-refresh": "0.4.26",
+    "globals": "17.0.0",
+    "vite": "8.1.0"
+  }
+}
